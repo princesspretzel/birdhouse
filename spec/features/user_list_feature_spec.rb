@@ -1,14 +1,6 @@
 require 'spec_helper'
 
 describe "user list feature" do
-  
-  before do
-    # create user
-      @user = {
-        :name => "Maybelle",
-        :password => "ilovekids"
-      }
-    end
 
   describe "given that I create a user" do
 
