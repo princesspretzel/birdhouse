@@ -1,0 +1,14 @@
+<% @activities.each do |activity| %>
+  <p> Name: <a href="/activities/<%=activity.id%>"> <%= activity.name %> </a></p>
+  <p> Duration: <%= activity.duration %> hrs</p>
+  <p> Particpants: <%= activity.participants %> people</p>
+<%end%>
+
+<form action='/activities' method='post'>
+  <p> Activity Name: <input type="text" name="new_activity" placeholder="activity name"> 
+  <input type="submit" value="Submit"> </p>
+  <p> # of Hours: <input type="text" name="duration" placeholder="# of hours">
+  <input type="submit" value="Submit"> </p>
+  <p> # of Particpants: <input type="text" name="participants" placeholder="# of participants"> 
+  <input type="submit" value="Submit"> </p>
+</form>
