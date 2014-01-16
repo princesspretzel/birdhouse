@@ -6,8 +6,8 @@ class ActivitiesController < ApplicationController
 
   def create
     Activity.create!({
-      name: params[:name]
-      duration: params[:duration]
+      name: params[:name],
+      duration: params[:duration],
       participants: params[:participants]
     })
     redirect_to :activities
