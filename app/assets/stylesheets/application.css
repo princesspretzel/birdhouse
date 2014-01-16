@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+  background: url('http://s1.favim.com/orig/13/blur-deviantart-eibo-jeddah-fish-goldfish-Favim.com-179255.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Verdana;
+  color: #f9e577;
+}
+
+h1, h2, ul, li, a {
+  font-family: Verdana;
+  color: #f9e577;
+}
