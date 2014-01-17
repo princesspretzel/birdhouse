@@ -14,4 +14,5 @@ class ActivitiesController < ApplicationController
   end
 
   def new; end
+  
 end
